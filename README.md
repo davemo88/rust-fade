@@ -1,9 +1,5 @@
 # rust-fade
-vim syntax rules and colorscheme for rust, building on official rust.vim
+vim syntax rules and colorscheme for rust
 
 ## install
-e.g. with vim-plug  
-`Plug 'davemo88/rust-fade'`
-
-official rust.vim  
-`Plug 'rust-lang/rust.vim'`
+use e.g. vim-plug and make sure also have the official rust.vim
