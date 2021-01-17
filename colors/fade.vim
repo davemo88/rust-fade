@@ -64,10 +64,6 @@ hi String ctermfg=077 ctermbg=NONE cterm=NONE
 " mostly the :: between rust namespaces
 hi Special ctermfg=061 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
 
-" NERDTree
-hi NERDTreeDirSlash ctermfg=141
-hi NERDTreeBookmarksHeader ctermfg=176
-
 " rust
 hi rustAssert ctermfg=227
 hi rustAttribute ctermfg=061
