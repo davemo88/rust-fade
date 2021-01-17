@@ -1,4 +1,4 @@
-
+" credit to https://github.com/arzg/vim-rust-syntax-ext
 syntax region rsTypeParams matchgroup=rsDelimiter start='<' end='>' keepend contains=TOP
 
 syntax match rsModule '\v(::)@<=[a-z][a-z0-9_]*'
