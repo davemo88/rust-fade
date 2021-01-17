@@ -66,16 +66,19 @@ hi Special ctermfg=061 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
 
 " NERDTree
 hi NERDTreeDirSlash ctermfg=141
+hi NERDTreeBookmarksHeader ctermfg=176
 
 " rust
 hi rustAssert ctermfg=227
 hi rustAttribute ctermfg=061
-hi rustFuncCall ctermfg=188 
+hi rustConstant ctermfg=064
 hi rustDerive ctermfg=061
 hi rustDeriveTrait ctermfg=061
 hi rustEnumVariant ctermfg=176
-hi rustConstant ctermfg=064
+hi rustFuncCall ctermfg=188 
+hi rustIdentifier ctermfg=176
 hi rustMacro ctermfg=227
+hi rustModPath ctermfg=188
 hi rustPanic ctermfg=160
 hi rustSelf ctermfg=227
 hi rustSigil ctermfg=079 
