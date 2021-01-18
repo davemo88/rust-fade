@@ -58,8 +58,18 @@ syntax match rsOperator '[!%&/\*+<=>?\^-]\+'
 " they would be recognised as the ‘mut’ keyword, thus whatever comes after the
 " ‘mut’ is highlighted as an identifier definition.
 syntax match rsOperator '&mut'
+syntax keyword rsUserType usize
 
 " syn match MyParens /[\[\]\(\)\{\}\.]/
 " syn match MySemicolons /;/
 " syn match MyDoubleColons /::/
 " syn keyword rustKeyword as
+"
+"
+"
+" Comments
+"
+
+syntax region rsComment start='//' end='$' contains=@Spell
+
+syntax region rsBlockComment start='/\*' end='\*/' contains=@Spell

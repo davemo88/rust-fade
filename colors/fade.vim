@@ -86,6 +86,7 @@ hi MyParens ctermfg=187
 " hi MyDoubleColons ctermfg=061
 hi MySemicolons ctermfg=187
 hi MyAngleBrace ctermfg=079
+hi rsComment ctermfg=242
 hi rsDelimiter ctermfg=187
 " hi rsModule ctermfg=187
 hi rsUserType ctermfg=176
