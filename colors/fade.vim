@@ -71,7 +71,7 @@ hi rsIdentifier ctermfg=188
 hi rsIdentDef ctermfg=188
 hi rsUnusedIdentDef ctermfg=188
 hi rsFieldAccess ctermfg=188
-hi rsFuncDef ctermfg=176
+hi rsFuncDef ctermfg=077
 hi rsLibraryMacro ctermfg=227
 hi rsLibraryType ctermfg=176
 hi rsUserConst ctermfg=077
@@ -80,5 +80,7 @@ hi rsUserIdent ctermfg=188
 hi rsForeignMacro ctermfg=227
 hi rsForeignType ctermfg=176
 hi rsCrateType ctermfg=176
+hi rsTypeDef ctermfg=077
+hi rsUnusedTypeDef ctermfg=176
 hi rsTypeParamDef ctermfg=176
 hi rsOperator ctermfg=079 ctermbg=NONE cterm=NONE 
