@@ -89,6 +89,7 @@ hi MyAngleBrace ctermfg=079
 hi rsComment ctermfg=242
 hi rsDelimiter ctermfg=187
 " hi rsModule ctermfg=187
+hi rsLibraryType ctermfg=176
 hi rsUserType ctermfg=176
 hi rsForeignType ctermfg=176
 hi rsCrateType ctermfg=176
