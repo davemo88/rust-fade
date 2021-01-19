@@ -56,42 +56,29 @@ hi Todo ctermfg=95 ctermbg=NONE cterm=inverse,bold guifg=#75715e guibg=NONE gui=
 
 hi MatchParen ctermfg=077 ctermbg=NONE cterm=underline 
 
-hi Function ctermfg=176 ctermbg=NONE cterm=NONE
+hi Function ctermfg=188 ctermbg=NONE cterm=NONE
 hi Keyword ctermfg=227 ctermbg=NONE cterm=NONE 
 
 hi String ctermfg=077 ctermbg=NONE cterm=NONE
 
-" mostly the :: between rust namespaces
-hi Special ctermfg=061 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
-
-" rust
-hi rustAssert ctermfg=227
-hi rustAttribute ctermfg=061
-hi rustConstant ctermfg=064
-hi rustDerive ctermfg=061
-hi rustDeriveTrait ctermfg=061
-hi rustEnumVariant ctermfg=176
-hi rustFuncCall ctermfg=188 
-hi rustIdentifier ctermfg=176
-hi rustMacro ctermfg=227
-hi rustModPath ctermfg=188
-hi rustPanic ctermfg=160
-hi rustSelf ctermfg=227
-hi rustSigil ctermfg=079 
-hi rustStorage ctermfg=227 
-hi rustSuper ctermfg=176
-
-" rust-fade
-hi MyParens ctermfg=187
-" hi MyDoubleColons ctermfg=061
-hi MySemicolons ctermfg=187
-hi MyAngleBrace ctermfg=079
+" rust syntax ext
+hi rsAttribute ctermfg=227
 hi rsComment ctermfg=242
 hi rsDelimiter ctermfg=187
-" hi rsModule ctermfg=187
+hi rsUse ctermfg=227
+hi rsModule ctermfg=176
+hi rsIdentifier ctermfg=188
+hi rsIdentDef ctermfg=188
+hi rsUnusedIdentDef ctermfg=188
+hi rsFieldAccess ctermfg=188
+hi rsFuncDef ctermfg=176
+hi rsLibraryMacro ctermfg=227
 hi rsLibraryType ctermfg=176
+hi rsUserConst ctermfg=077
 hi rsUserType ctermfg=176
+hi rsUserIdent ctermfg=188
+hi rsForeignMacro ctermfg=227
 hi rsForeignType ctermfg=176
 hi rsCrateType ctermfg=176
-hi rsUserConst ctermfg=077
+hi rsTypeParamDef ctermfg=176
 hi rsOperator ctermfg=079 ctermbg=NONE cterm=NONE 
