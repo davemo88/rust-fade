@@ -19,7 +19,7 @@ hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=N
 hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi LineNr ctermfg=102 ctermbg=237 cterm=NONE guifg=#90908a guibg=#3c3d37 gui=NONE
-hi VertSplit ctermfg=235 ctermbg=235 cterm=NONE guifg=#64645e guibg=#64645e gui=NONE
+hi VertSplit ctermfg=233 ctermbg=233 cterm=NONE guifg=#64645e guibg=#64645e gui=NONE
 hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
 hi IncSearch term=reverse cterm=reverse ctermfg=193 ctermbg=16 gui=reverse guifg=#C4BE89 guibg=#000000
@@ -43,6 +43,8 @@ hi Number ctermfg=077 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
 hi Float ctermfg=077 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
 
 hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#8b0797 guibg=NONE gui=NONE
+
+hi NonText ctermfg=188
 
 hi SignColumn ctermfg=NONE ctermbg=233 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 
