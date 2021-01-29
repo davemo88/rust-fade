@@ -65,7 +65,10 @@ hi String ctermfg=077 ctermbg=NONE cterm=NONE
 hi rsAttribute ctermfg=227
 hi rsComment ctermfg=242
 hi rsDelimiter ctermfg=187
+hi rsFor ctermfg=227
 hi rsUse ctermfg=227
+hi rsMatch ctermfg=227
+hi rsIf ctermfg=227
 hi rsModule ctermfg=176
 hi rsIdentifier ctermfg=188
 hi rsIdentDef ctermfg=188
