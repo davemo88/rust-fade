@@ -12,14 +12,14 @@ endif
 set t_Co=256
 let g:colors_name = "fade"
 
+hi Normal ctermfg=188 ctermbg=016 cterm=NONE guifg=#f8f8f2 guibg=#272822 gui=NONE
 hi Cursor ctermfg=235 ctermbg=231 cterm=NONE guifg=#272822 guibg=#f8f8f0 gui=NONE
-hi Normal ctermfg=188 ctermbg=235 cterm=NONE guifg=#f8f8f2 guibg=#272822 gui=NONE
 hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 hi LineNr ctermfg=102 ctermbg=237 cterm=NONE guifg=#90908a guibg=#3c3d37 gui=NONE
-hi VertSplit ctermfg=241 ctermbg=241 cterm=NONE guifg=#64645e guibg=#64645e gui=NONE
+hi VertSplit ctermfg=235 ctermbg=235 cterm=NONE guifg=#64645e guibg=#64645e gui=NONE
 hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
 hi IncSearch term=reverse cterm=reverse ctermfg=193 ctermbg=16 gui=reverse guifg=#C4BE89 guibg=#000000
@@ -44,13 +44,13 @@ hi Float ctermfg=077 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
 
 hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#8b0797 guibg=NONE gui=NONE
 
-hi SignColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
+hi SignColumn ctermfg=NONE ctermbg=233 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
 
 hi Error ctermfg=NONE ctermbg=064
-hi SpellBad ctermfg=NONE ctermbg=064
+hi SpellBad ctermfg=NONE ctermbg=016
 hi YcmErrorSign ctermfg=NONE ctermbg=064 cterm=italic
-hi SpellCap ctermfg=NONE ctermbg=235
-hi YcmWarningSign ctermfg=064 ctermbg=237 cterm=italic
+hi SpellCap ctermfg=NONE ctermbg=016
+hi YcmWarningSign ctermfg=064 ctermbg=233 cterm=italic
 
 hi Todo ctermfg=95 ctermbg=NONE cterm=inverse,bold guifg=#75715e guibg=NONE gui=inverse,bold
 
