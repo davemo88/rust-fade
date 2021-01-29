@@ -63,6 +63,7 @@ hi Keyword ctermfg=227 ctermbg=NONE cterm=NONE
 
 hi String ctermfg=077 ctermbg=NONE cterm=NONE
 
+hi NERDTreeFile ctermfg=077
 hi NERDTreeExecFile ctermfg=077
 
 " rust syntax ext
