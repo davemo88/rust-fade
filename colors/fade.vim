@@ -71,6 +71,7 @@ hi rsAttribute ctermfg=227
 hi rsComment ctermfg=242
 hi rsDelimiter ctermfg=187
 hi rsFor ctermfg=227
+hi rsWhile ctermfg=227
 hi rsUse ctermfg=227
 hi rsMatch ctermfg=227
 hi rsIf ctermfg=227
