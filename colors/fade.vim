@@ -29,8 +29,8 @@ hi Comment ctermfg=242 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
 hi SpecialComment ctermfg=242 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
 hi Constant ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 
-hi StatusLine ctermfg=231 ctermbg=241 cterm=bold guifg=#f8f8f2 guibg=#64645e gui=bold
-hi StatusLineNC ctermfg=231 ctermbg=241 cterm=NONE guifg=#f8f8f2 guibg=#64645e gui=NONE
+hi StatusLine ctermfg=188 ctermbg=233 cterm=bold guifg=#f8f8f2 guibg=#64645e gui=bold
+hi StatusLineNC ctermfg=188 ctermbg=233 cterm=NONE guifg=#f8f8f2 guibg=#64645e gui=NONE
 hi DiffAdd ctermfg=231 ctermbg=64 cterm=bold guifg=#f8f8f2 guibg=#46830c gui=bold
 hi DiffChange ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=#243955 gui=NONE
 hi DiffText ctermfg=231 ctermbg=24 cterm=bold guifg=#f8f8f2 guibg=#204a87 gui=bold
@@ -60,6 +60,8 @@ hi Function ctermfg=188 ctermbg=NONE cterm=NONE
 hi Keyword ctermfg=227 ctermbg=NONE cterm=NONE 
 
 hi String ctermfg=077 ctermbg=NONE cterm=NONE
+
+hi NERDTreeExecFile ctermfg=077
 
 " rust syntax ext
 hi rsAttribute ctermfg=227
