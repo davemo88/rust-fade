@@ -12,7 +12,7 @@ endif
 set t_Co=256
 let g:colors_name = "fade"
 
-hi Normal ctermfg=188 ctermbg=016 cterm=NONE guifg=#f8f8f2 guibg=#272822 gui=NONE
+hi Normal ctermfg=188 ctermbg=234 cterm=NONE guifg=#f8f8f2 guibg=#272822 gui=NONE
 hi Cursor ctermfg=235 ctermbg=231 cterm=NONE guifg=#272822 guibg=#f8f8f0 gui=NONE
 hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=NONE
