@@ -73,6 +73,7 @@ hi rsDelimiter ctermfg=187
 hi rsFor ctermfg=227
 hi rsWhile ctermfg=227
 hi rsUse ctermfg=227
+hi rsMut ctermfg=079 
 hi rsMatch ctermfg=227
 hi rsIf ctermfg=227
 hi rsModule ctermfg=176
@@ -92,4 +93,4 @@ hi rsCrateType ctermfg=176
 hi rsTypeDef ctermfg=077
 hi rsUnusedTypeDef ctermfg=176
 hi rsTypeParamDef ctermfg=176
-hi rsOperator ctermfg=079 ctermbg=NONE cterm=NONE 
+hi rsOperator ctermfg=079 
