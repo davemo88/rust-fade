@@ -77,6 +77,7 @@ hi rsMut ctermfg=079
 hi rsMatch ctermfg=227
 hi rsIf ctermfg=227
 hi rsElse ctermfg=227
+hi rsLoop ctermfg=227
 hi rsModule ctermfg=176
 hi rsIdentifier ctermfg=188
 hi rsIdentDef ctermfg=188
