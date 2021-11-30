@@ -96,3 +96,7 @@ hi rsTypeDef ctermfg=077
 hi rsUnusedTypeDef ctermfg=176
 hi rsTypeParamDef ctermfg=176
 hi rsOperator ctermfg=079 
+
+" python
+hi def link pythonFunction rsFuncDef
+hi def link pythonBuiltin  rsFor
